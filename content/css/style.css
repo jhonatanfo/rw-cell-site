@@ -1,0 +1,656 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.sem-espaco {
+    padding: 0;
+    margin: 0
+}
+
+.logo {
+    padding-top: 18px;
+}
+
+/* nav */
+
+.navbar-default {
+    border: none;
+    background: #FFFFFF;
+    height: 128px;
+    box-shadow: 0px 4px 20px rgb(167 167 167 / 25%);
+    margin: 0;
+    z-index: 3;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.navbar-default .navbar-nav li:hover a {
+    color: #BF2226;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav li:hover a:after {
+    content: "";
+    height: 14px;
+    background: #BF2226;
+    position: absolute;
+    top: -43px;
+    width: 100%;
+    left: 0;
+}
+
+.navbar-nav {
+    float: right;
+    padding: 43px 0 35px 0;
+}
+
+/* banner */
+
+.banner {
+    background: url("../img/banner.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 825px;
+    margin-top: -128px;
+}
+
+.box-banner {
+    z-index: 2;
+    padding: 112px 0 0 0;
+}
+
+.banner .box-banner h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 0;
+}
+
+.banner .box-banner h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 70px;
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.banner .box-banner button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    width: 273px;
+    height: 80px;
+    background: linear-gradient(90deg, #BF2226 0%, #EC4456 137.82%);
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    margin-bottom: 100px;
+}
+
+.banner .chamadas {
+    z-index: 2;
+    position: relative;
+}
+
+.banner .chamadas .box-chamadas {
+    height: 282px;
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    box-sizing: border-box;
+    padding: 38px 0;
+    box-shadow: 0px 4px 20px rgba(226, 226, 226, 0.25);
+}
+
+.banner .chamadas .box-chamadas.central {
+    height: 331px;
+    margin-top: -27px;
+    padding: 60px 0;
+}
+
+.banner .chamadas .box-chamadas i.icon-qualidade {
+    background: url("../img/icon-qualidade.svg") no-repeat center;
+    background-size: 100%;
+    width: 40px;
+    height: 42px;
+    margin: 0 auto;
+    display: block;
+}
+
+.banner .chamadas .box-chamadas i.icon-garantia {
+    background: url("../img/icon-garantia.svg") no-repeat center;
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+}
+
+.banner .chamadas .box-chamadas i.icon-especializacao {
+    background: url("../img/icon-especializacao.svg") no-repeat center;
+    background-size: 100%;
+    width: 40px;
+    height: 42px;
+    margin: 0 auto;
+    display: block;
+}
+
+.banner .chamadas .box-chamadas h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #3A404A;
+    text-align: center;
+}
+
+.banner .chamadas .box-chamadas p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    color: #627086;
+}
+
+/* quem somos */
+
+.quem-somos {
+    background: #EBEBEB;
+    padding-top: 320px;
+    padding-bottom: 100px;
+}
+
+.quem-somos h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #DB3743;
+}
+
+.quem-somos h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: #3A404A;
+    margin-bottom: 22px;
+}
+
+.quem-somos p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 169.19%;
+    color: #627086;
+    margin-bottom: 30px;
+}
+
+.quem-somos button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #BF2226 0%, #EC4456 137.82%);
+    border-radius: 7px;
+    width: 238px;
+    height: 80px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+}
+
+/***/
+
+.nossos-servicos {
+    background: #E5E5E5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.nossos-servicos h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #DB3743;
+    text-align: center;
+}
+
+.nossos-servicos h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: #3A404A;
+    margin-bottom: 22px;
+    text-align: center;
+    margin-bottom: 77px;
+}
+
+.nossos-servicos i.icon-quebrou {
+    background: url("../img/icon-quebrou.svg") no-repeat center;
+    background-size: 100%;
+    width: 61px;
+    height: 61px;
+    margin: 0 auto;
+    display: block;
+}
+
+.nossos-servicos i.icon-molhou {
+    background: url("../img/icon-molhou.svg") no-repeat center;
+    background-size: 100%;
+    width: 61px;
+    height: 61px;
+    margin: 0 auto;
+    display: block;
+}
+
+.nossos-servicos i.icon-servicos {
+    background: url("../img/icon-servicos.svg") no-repeat center;
+    background-size: 100%;
+    width: 61px;
+    height: 61px;
+    margin: 0 auto;
+    display: block;
+}
+
+.nossos-servicos h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #3A404A;
+    margin: 15px 0 20px 0;
+}
+
+.nossos-servicos p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 181.19%;
+    text-align: center;
+    color: #627086;
+    margin-bottom: 35px;
+}
+
+.nossos-servicos button {
+    width: 195px;
+    height: 66px;
+    background: #FFFFFF;
+    border: 1px solid #BF2226;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #BF2226;
+    outline: none;
+    margin: 0 auto;
+    display: block;
+}
+
+.nossos-servicos .box-nossos-servicos {
+    height: 564px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(188, 188, 188, 0.25);
+    border-radius: 7px;
+    padding: 37px 0;
+    margin: 30px 0;
+}
+
+.nossos-servicos .box-nossos-servicos.principal {
+    height: 626px;
+    background: linear-gradient(0deg, #BF2226 -6.38%, #EC4456 103.9%);
+    box-shadow: 0px 4px 50px rgba(188, 188, 188, 0.25);
+    border-radius: 7px;
+    padding: 71px 0;
+    margin-top: 0;
+    background: url(../img/bg-vermelho.png) center;
+    background-size: 575px;
+}
+
+.nossos-servicos .box-nossos-servicos.principal h4 {
+    color: #FFFFFF;
+}
+
+.nossos-servicos .box-nossos-servicos.principal p {
+    color: #FFFFFF;
+}
+
+.nossos-servicos .box-left {
+    padding: 10px;
+}
+
+.nossos-servicos .box-center {
+    padding: 10px;
+}
+
+.nossos-servicos .box-right {
+    padding: 10px;
+}
+
+.nossos-servicos .box-right .box-nossos-servicos p {
+    margin-bottom: 107px;
+}
+
+/***/
+
+.informacoes-servicos {
+    background: url("../img/bg-informacoes-servicos.png") center no-repeat;
+    width: 100%;
+    height: 400px;
+    display: block;
+    padding: 100px 0;
+}
+
+.informacoes-servicos .box-right, .informacoes-servicos .box-center, .informacoes-servicos .box-left {
+    padding: 35px 0;
+}
+
+.informacoes-servicos .box-right h2, .informacoes-servicos .box-center h2, .informacoes-servicos .box-left h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 59px;
+    /* identical to box height */
+    text-align: center;
+    color: #ECE21B;
+    margin: 0 0 15px 0;
+}
+
+.informacoes-servicos .box-right p, .informacoes-servicos .box-center p, .informacoes-servicos .box-left p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 122.19%;
+    /* or 31px */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.informacoes-servicos .box-center {
+    border-left: 1px solid #404959;
+    border-right: 1px solid #404959;
+}
+
+/****/
+
+.marcas {
+    background: #E5E5E5;
+    padding: 70px 0 98px 0;
+    height: 500px;
+}
+
+.marcas .slick-dots li button:before {
+    display: none;
+}
+
+.marcas .slick-dots li {
+    margin: 0;
+}
+
+.marcas .slick-dots li button {
+    color: #C4C4C4;
+    background: #C4C4C4;
+    width: 11px;
+    height: 11px;
+    padding: 0;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+.marcas .slick-dots .slick-active button {
+    color: #BF2226;
+    background: #BF2226;
+}
+
+.marcas .slick-dots {
+    bottom: -60px;
+}
+
+/***/
+
+.contato-home {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgb(165 165 165 / 25%);
+    border-radius: 8px;
+    height: 415px;
+    margin-top: -215px;
+}
+
+.contato-home i {
+    background: url("../img/icon-contato-home.svg");
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 45px;
+}
+
+.contato-home h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+    color: #3A404A;
+}
+
+.contato-home h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #BF2226;
+    margin-bottom: 30px;
+}
+
+.contato-home button {
+    background: linear-gradient(90deg, #BF2226 0%, #EC4456 137.82%);
+    border-radius: 7px;
+    width: 238px;
+    height: 80px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    margin: 0 auto;
+    display: block;
+}
+
+/***/
+
+.bg-rodape {
+    background: #1A1F26;
+    height: 689px;
+    margin-top: -274px;
+    position: relative;
+    padding-top: 360px;
+}
+
+.bg-rodape img {
+    margin-top: 50px;
+}
+
+.bg-rodape .menu-rodape.border {
+    border-left: 1px solid #475261;
+    border-right: 1px solid #475261;
+    padding-right: 15px;
+    padding-left: 23px;
+    padding-bottom: 53px;
+}
+
+.bg-rodape .menu-rodape h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.bg-rodape .menu-rodape ul {
+    padding: 0;
+}
+
+.bg-rodape .menu-rodape ul li {
+    list-style: none;
+}
+
+.bg-rodape .menu-rodape ul li a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.info-rodape {
+    padding: 0 52px;
+}
+
+.info-rodape h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.info-rodape ul.box-info-rodape {
+    padding: 0;
+}
+
+.info-rodape ul.box-info-rodape li {
+    list-style: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.info-rodape ul.box-info-rodape li b {
+    font-weight: 700;
+}
+
+.info-rodape ul.rodape-redes-sociais {
+    padding: 0;
+}
+
+.info-rodape ul.rodape-redes-sociais li {
+    list-style: none;
+    float: left;
+    margin: 20px 30px 0 0;
+}
+
+.info-rodape ul.rodape-redes-sociais li a i.icon-instagram {
+    background: url("../img/icon-instagram.svg");
+    width: 33px;
+    height: 33px;
+    display: block;
+    margin: 0 auto;
+}
+
+.info-rodape ul.rodape-redes-sociais li a i.icon-linkedin {
+    background: url("../img/icon-linkedin.svg");
+    width: 33px;
+    height: 33px;
+    display: block;
+    margin: 0 auto;
+}
+
+.info-rodape ul.rodape-redes-sociais li a i.icon-twitter {
+    background: url("../img/icon-twitter.svg");
+    width: 33px;
+    height: 33px;
+    display: block;
+    margin: 0 auto;
+}
+
+.info-rodape ul.rodape-redes-sociais li a i.icon-facebook {
+    background: url("../img/icon-facebook.svg");
+    width: 33px;
+    height: 33px;
+    display: block;
+    margin: 0 auto;
+}
+
+/**/
+
+select {
+    /* styling */
+    background-color: white;
+    border: thin solid blue;
+    border-radius: 4px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+    /* reset */
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
