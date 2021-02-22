@@ -1,0 +1,126 @@
+/**/
+
+.servicos-interna {
+    background: #EBEBEB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.servicos-interna h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    color: #3A404A;
+    margin-bottom: 22px;
+}
+
+.servicos-interna p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 169.19%;
+    color: #627086;
+    margin-bottom: 30px;
+}
+
+/***/
+
+.informacoes-servicos-interna-02 {
+    background: url("../img/bg-informacoes-servicos-02.png") center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 530px;
+    display: block;
+    padding: 0 0 0 0;
+}
+
+.informacoes-servicos-interna-02 .box-left {
+    padding: 35px 0;
+}
+
+.informacoes-servicos-interna-02 .box-left h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 59px;
+    text-align: center;
+    color: #ECE21B;
+    margin: 0 0 15px 0;
+}
+
+.informacoes-servicos-interna-02 .box-left p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 122.19%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.informacoes-servicos-interna-02 .box-left button {
+    width: 250px;
+    height: 66px;
+    background: #303641;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.informacoes-servicos-interna-02 .box-center {
+    border-left: 1px solid #404959;
+    border-right: 1px solid #404959;
+}
+
+.informacoes-servicos-interna-02 ul li:hover i {
+    background: url("../img/icon-celular-hover.svg") center no-repeat;
+    width: 61px;
+    height: 61px;
+    float: left;
+}
+
+.informacoes-servicos-interna-02 i {
+    background: url("../img/icon-celular.svg") center no-repeat;
+    width: 61px;
+    height: 61px;
+    float: left;
+    margin-right: 50px;
+}
+
+.informacoes-servicos-interna-02 h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 18px;
+    color: #ECE21B;
+    padding-top: 7px;
+}
+
+.informacoes-servicos-interna-02 h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.informacoes-servicos-interna-02 ul li {
+    margin-bottom: 59px;
+}
+
+/****/

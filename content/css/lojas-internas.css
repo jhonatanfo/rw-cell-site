@@ -1,0 +1,289 @@
+ /* banner interna*/
+
+ .banner-interna.lojas-internas {
+    background: url("../img/bg-lojas-internas.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    margin-top: -92px;
+}
+
+.box-banner-interna.lojas-internas {
+    z-index: 2;
+    padding: 112px 0 0 0;
+}
+
+.banner-interna.lojas-internas .box-banner-interna h1 {
+    text-transform: unset;
+    margin-bottom: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.chamada-lojas-internas {
+    background: url("../img/bg-chamada-lojas-internas.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 486px;
+    margin-top: -237px;
+}
+
+.bg-chamada-lojas-internas {
+    background: #ebebeb;
+}
+
+.chamada-lojas-internas .left {
+    padding: 189px 124px 0px 0;
+}
+
+.chamada-lojas-internas .left i {
+    background: url(../img/icon-lojas-hover.svg);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+.chamada-lojas-internas .left h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #ECE21B;
+}
+
+.chamada-lojas-internas .right {
+    padding: 160px 70px 0 0;
+}
+
+.chamada-lojas-internas .right p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 169.19%;
+    /* or 42px */
+    color: #FFFFFF;
+}
+
+.chamada-lojas-internas .right h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 169.19%;
+    /* or 42px */
+    color: #ECE21B;
+}
+
+.chamada-lojas-internas .right button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #BF2226 0%, #EC4456 137.82%);
+    border-radius: 7px;
+    width: 243px;
+    height: 67px;
+    border: none;
+    outline: none;
+    padding-right: 25px;
+}
+
+.chamada-lojas-internas .right button span {
+    background: url(../img/icon-seta-white.svg);
+    background-size: cover;
+    width: 7px;
+    height: 13px;
+    position: absolute;
+    margin: 6px 0 0 16px;
+}
+
+/* quem somos */
+
+.quem-somos-interna {
+    background: #EBEBEB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quem-somos-interna h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 43px;
+    line-height: 59px;
+    color: #3A404A;
+    margin-bottom: 22px;
+}
+
+.quem-somos-interna p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 169.19%;
+    color: #627086;
+    margin-bottom: 30px;
+}
+
+/***/
+
+.bg-loja-galeria {
+    height: 774px;
+}
+
+.bg-loja-galeria ul {
+    padding: 0;
+    margin: 0;
+}
+
+.bg-loja-galeria ul li {
+    float: left;
+    width: 33.33%;
+    height: 387px;
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.bg-loja-galeria ul li:hover:before {
+    content: "";
+    width: 100%;
+    height: 387px;
+    background: #00000099;
+    position: absolute;
+    top: 0;
+}
+
+.bg-loja-galeria ul li:hover:after {
+    background: url("../img/icon-zoom.png") no-repeat center;
+    content: "";
+    width: 100%;
+    height: 387px;
+    position: absolute;
+    top: 0;
+}
+
+.lojas-internas-orcamento {
+    background: white;
+    padding: 80px 0 130px 0;
+}
+
+.lojas-internas-orcamento h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #303641;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.lojas-internas-orcamento form {}
+
+.lojas-internas-orcamento form label {
+    width: 100%;
+}
+
+.lojas-internas-orcamento form label i.icon-form-nome {
+    background-image: url("../img/icon-form-nome.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 39px;
+    height: 39px;
+    float: left;
+    margin-right: 11px;
+}
+
+.lojas-internas-orcamento form label i.icon-form-nome.ativo {
+    background-image: url("../img/icon-form-nome-hover.svg");
+}
+
+.lojas-internas-orcamento form label i.icon-form-tel {
+    background: url("../img/icon-form-tel.svg") no-repeat center;
+    width: 39px;
+    height: 39px;
+    float: left;
+    margin-right: 11px;
+}
+
+.lojas-internas-orcamento form label i.icon-form-tel.ativo {
+    background-image: url("../img/icon-form-tel-hover.svg");
+}
+
+.lojas-internas-orcamento form label i.icon-form-email {
+    background: url("../img/icon-form-email.svg") no-repeat center;
+    width: 39px;
+    height: 39px;
+    float: left;
+    margin-right: 11px;
+}
+
+.lojas-internas-orcamento form label i.icon-form-email.ativo {
+    background-image: url("../img/icon-form-email-hover.svg");
+}
+
+.lojas-internas-orcamento form label i.icon-form-msg {
+    background: url("../img/icon-form-msg.svg") no-repeat center;
+    width: 39px;
+    height: 39px;
+    float: left;
+    margin-right: 11px;
+}
+
+.lojas-internas-orcamento form label i.icon-form-msg.ativo {
+    background-image: url("../img/icon-form-msg-hover.svg");
+}
+
+.lojas-internas-orcamento form label {
+    border-bottom: 1px solid #CECECE;
+    margin-bottom: 34px;
+}
+
+.lojas-internas-orcamento form input {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 106%;
+    color: #878787;
+    border: none;
+    width: calc(100% - 50px);
+    height: 50px;
+    outline: none;
+}
+
+.lojas-internas-orcamento form button {
+    width: 195px;
+    height: 66px;
+    background: #FFFFFF;
+    border: 1px solid #BF2226;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #BF2226;
+    outline: none;
+    float: right;
+    margin-top: 30px;
+}

@@ -1,0 +1,136 @@
+ /* banner interna*/
+
+ .banner-interna.lojas {
+    background: url("../img/bg-lojas.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    margin-top: -92px;
+}
+
+.box-banner-interna.lojas {
+    z-index: 2;
+    padding: 112px 0 0 0;
+}
+
+.banner-interna.lojas .box-banner-interna h1 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: unset;
+}
+
+.chamada-lojas {
+    background: #E5E5E5;
+}
+
+
+.box-lojas:hover {
+    background: url("../img/bg-vermelho-02.png");
+    background-position: center;
+    background-size: 130%;
+}
+ 
+
+.box-lojas {
+    height: 400px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(188, 188, 188, 0.25);
+    border-radius: 7px;
+    margin: -165px 0 0 0;
+    padding: 78px 0;
+}
+
+.box-lojas i {
+    background: url("../img/icon-lojas.svg");
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.box-lojas:hover i {
+    background: url("../img/icon-lojas-hover.svg");
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+.box-lojas:hover h2 {
+    color: #ECE21B;
+}
+.box-lojas:hover p {
+    color: #FFFFFF;
+}
+
+.box-lojas h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 35px;
+    text-align: center;
+    color: #3A404A;
+}
+
+.box-lojas p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 181.2%;
+    /* or 45px */
+    text-align: center;
+    color: #627086;
+    margin-bottom: 25px;
+}
+
+.box-lojas button {
+    width: 200px;
+    height: 65px;
+    background: linear-gradient(90deg, #BF2226 0%, #EC4456 137.82%);
+    border-radius: 7px;
+    margin: 0 auto;
+    display: block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    padding-right: 14px;
+}
+
+.box-lojas button span {
+    background: url("../img/icon-seta-white.svg");
+    background-size: cover;
+    width: 7px;
+    height: 13px;
+    position: absolute;
+    margin: 6px 0 0 16px;
+}
+
+.box-lojas:hover button {
+    background: white;
+    color: #BF2226;
+}
+
+.box-lojas:hover button span {
+    background: url("../img/icon-seta-red.svg");
+}
+
+/***/
+
