@@ -1,19 +1,1178 @@
-@media(min-width: 1200px) and (max-width: 1600px) {}
-
-@media(min-width: 992px) and (max-width: 1199px) {
-
-    .logo {
-       width: 150px;
-    }
+@media(min-width: 1200px) and (max-width: 1400px) {
+  .banner .box-banner h1 {
+    font-size: 20px;
+  }
+  .banner .box-banner h2 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .banner .box-banner button {
+    font-size: 16px;
+    line-height: 23px;
+    width: 230px;
+    height: 66px;
+  }
+  .banner {
+    height: 700px;
+  }
+  .box-banner {
+    padding: 75px 0 0 0;
+  }
+  .banner .chamadas .box-chamadas h2 {
+    font-size: 25px;
+  }
+  .banner .chamadas .box-chamadas p {
+    font-size: 17px;
+    line-height: 26px;
+  }
+  /*****/
+  .quem-somos h2 {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .quem-somos h3 {
+    font-size: 40px;
+    line-height: 55px;
+    margin-top: 0;
+  }
+  .quem-somos p {
+    font-size: 18px;
+  }
+  .quem-somos button {
+    font-size: 16px;
+    line-height: 23px;
+    width: 200px;
+    height: 66px;
+  }
+  /****/
+  .nossos-servicos h2 {
+    font-size: 20px;
+  }
+  .nossos-servicos h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .nossos-servicos h4 {
+    font-size: 25px;
+  }
+  .nossos-servicos p {
+    font-size: 18px;
+  }
+  /*******/
+  .informacoes-servicos .box-right h2, .informacoes-servicos .box-center h2, .informacoes-servicos .box-left h2 {
+    font-size: 30px;
+  }
+  .informacoes-servicos .box-right p, .informacoes-servicos .box-center p, .informacoes-servicos .box-left p {
+    font-size: 20px;
+    line-height: 138.19%;
+  }
+  .informacoes-servicos {
+    height: 350px;
+    padding: 70px 0;
+  }
+  /*******/
+  .contato-home h2 {
+    font-size: 27px;
+    line-height: 38px
+  }
+  .contato-home button {
+    font-size: 16px;
+    line-height: 23px;
+    width: 200px;
+    height: 66px;
+  }
+  /*******/
+  .banner-interna .box-banner-interna h1 {
+    font-size: 40px;
+  }
+  .banner-interna {
+    background-size: cover;
+  }
+  .quem-somos-interna h3 {
+    font-size: 40px;
+  }
+  .quem-somos-interna p {
+    font-size: 18px;
+  }
+  /****/
+  .servicos-interna h3 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .servicos-interna p {
+    font-size: 18px;
+  }
+  /**/
+  .banner-interna.lojas .box-banner-interna h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 0;
+  }
+  .banner-interna.lojas {
+    height: 510px;
+  }
+  .box-banner-interna {
+    padding: 90px 0 0 0;
+  }
+  .banner-interna.lojas-internas {
+    height: 563px;
+  }
+  .fale-conosco-topo{
+    height:380px !important
+  }
 
 }
 
-@media(min-width: 768px) and (max-width: 991px) {}
+@media(min-width: 992px) and (max-width: 1199px) {
+  .bg-mensagem{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .fale-conosco-topo{
+    height:380px !important
+  }
+  .chamada-lojas-internas {
+    margin-top: -275px;
+  }
+
+  .banner-interna.lojas-internas {
+    height: 563px;
+  }
+  /****/
+  .banner .box-banner h1 {
+    font-size: 20px;
+  }
+  .banner .box-banner h2 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .banner .box-banner button {
+    font-size: 16px;
+    line-height: 23px;
+    width: 230px;
+    height: 66px;
+  }
+  .banner {
+    height: 700px;
+  }
+  .box-banner {
+    padding: 75px 0 0 0;
+  }
+  .banner .chamadas .box-chamadas h2 {
+    font-size: 25px;
+  }
+  .banner .chamadas .box-chamadas p {
+    font-size: 17px;
+    line-height: 26px;
+  }
+  /*****/
+  .quem-somos h2 {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .quem-somos h3 {
+    font-size: 39px;
+    line-height: 55px;
+    margin-top: 0;
+  }
+  .quem-somos p {
+    font-size: 17px;
+  }
+  .quem-somos button {
+    font-size: 16px;
+    line-height: 23px;
+    width: 200px;
+    height: 66px;
+  }
+  /****/
+  .nossos-servicos h2 {
+    font-size: 20px;
+  }
+  .nossos-servicos h3 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 50px;
+  }
+  .nossos-servicos h4 {
+    font-size: 25px;
+  }
+  .nossos-servicos p {
+    font-size: 16px;
+  }
+  .nossos-servicos .box-nossos-servicos {
+    height: 502px;
+  }
+  .nossos-servicos .box-nossos-servicos.principal {
+    height: 570px;
+  }
+  .nossos-servicos .box-right .box-nossos-servicos p {
+    margin-bottom: 90px;
+  }
+  /*******/
+  .informacoes-servicos .box-right h2, .informacoes-servicos .box-center h2, .informacoes-servicos .box-left h2 {
+    font-size: 30px;
+  }
+  .informacoes-servicos .box-right p, .informacoes-servicos .box-center p, .informacoes-servicos .box-left p {
+    font-size: 20px;
+    line-height: 138.19%;
+  }
+  .informacoes-servicos {
+    height: 350px;
+    padding: 70px 0;
+  }
+  /*******/
+  .contato-home h2 {
+    font-size: 27px;
+    line-height: 38px
+  }
+  .contato-home button {
+    font-size: 16px;
+    line-height: 23px;
+    width: 200px;
+    height: 66px;
+  }
+  /***/
+  .info-rodape ul.box-info-rodape li {
+    font-size: 12px;
+  }
+  /*******/
+  .banner-interna .box-banner-interna h1 {
+    font-size: 40px;
+  }
+  .banner-interna {
+    background-size: cover;
+  }
+  .quem-somos-interna h3 {
+    font-size: 35px;
+  }
+  .quem-somos-interna p {
+    font-size: 17px;
+    margin-bottom: 12px;
+  }
+  .quem-somos-interna img {
+    padding-top: 50px;
+  }
+  .informacoes-servicos-interna .box-left h2 {
+    font-size: 30px;
+  }
+  .informacoes-servicos-interna .box-left p {
+    font-size: 19px;
+    line-height: 29px;
+  }
+  /****/
+  .servicos-interna h3 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .servicos-interna p {
+    font-size: 18px;
+  }
+  /***/
+  .informacoes-servicos-interna-02 h3 {
+    font-size: 20px;
+  }
+  .informacoes-servicos-interna-02 h4 {
+    font-size: 18px;
+  }
+  /**/
+  .banner-interna.lojas .box-banner-interna h1 {
+    font-size: 35px;
+    line-height: 43px;
+    margin-top: 5px;
+  }
+  .banner-interna.lojas {
+    height: 400px;
+  }
+  .box-banner-interna {
+    padding: 90px 0 0 0;
+  }
+  /***/
+  .box-lojas h2 {
+    font-size: 19px;
+  }
+  .box-lojas p {
+    font-size: 15px;
+  }
+  .box-lojas {
+    height: 323px;
+    padding: 40px 0;
+    margin: -85px 0 0 0;
+  }
+  .box-lojas a {
+    width: 170px;
+    height: 58px;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 17px 14px 0 0;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+  .fale-conosco-topo{
+    height:263px !important
+  }
+  .bg-mensagem {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .banner-interna.lojas-internas {
+    height: 370px;
+  }
+  .banner-interna.lojas-internas .box-banner-interna h1{
+    font-size: 29px;
+    margin-top: 33px;
+  }
+  .chamada-lojas-internas .left h2 {
+    font-size: 21px;
+  }
+  .chamada-lojas-internas .left {
+    padding: 180px 90px 0px 0;
+  }
+  .chamada-lojas-internas .right p {
+    font-size: 17px;
+  }
+  .chamada-lojas-internas .right h4 {
+    font-size: 14px;
+  }
+ 
+  .chamada-lojas-internas .right button {
+      font-size: 15px;
+      line-height: 23px;
+      width: 205px;
+      height: 50px;
+  }
+  /****/
+  .box-lojas:hover {
+    background-size: 150%;
+  }
+  .banner .box-banner h1 {
+    font-size: 15px;
+    margin-top: 0;
+    text-align: center;
+  }
+  .banner .box-banner h2 {
+    font-size: 29px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .banner .box-banner button {
+    font-size: 16px;
+    line-height: 23px;
+    width: 230px;
+    height: 66px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 75px;
+  }
+  .banner {
+    height: 400px;
+    margin-top: 0;
+  }
+  .box-banner {
+    padding: 37px 0 0 0;
+  }
+  .banner .chamadas .box-chamadas h2 {
+    font-size: 25px;
+  }
+  .banner .chamadas .box-chamadas p {
+    font-size: 17px;
+    line-height: 26px;
+  }
+  /***/
+  .quem-somos h2 {
+    font-size: 15px;
+    line-height: 17px;
+    margin: 0;
+  }
+  .quem-somos h3 {
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 17px;
+    margin-top: 7px;
+  }
+  .quem-somos p {
+    font-size: 17px;
+    line-height: 28px;
+    margin-bottom: 0px;
+  }
+  .quem-somos button {
+    font-size: 16px;
+    line-height: 23px;
+    width: 190px;
+    height: 66px;
+    margin-bottom: 0;
+  }
+  /****/
+  .nossos-servicos h2 {
+    margin-top: 0;
+    font-size: 15px;
+  }
+  .nossos-servicos h3 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 50px;
+  }
+  .nossos-servicos h4 {
+    font-size: 19px;
+    margin: 15px 0 10px 0;
+  }
+  .nossos-servicos p {
+    font-size: 15px;
+    line-height: 170.19%;
+  }
+  .nossos-servicos .box-nossos-servicos {
+    height: 456px;
+  }
+  .nossos-servicos .box-nossos-servicos.principal {
+    height: 524px;
+  }
+  .nossos-servicos .box-right .box-nossos-servicos p {
+    margin-bottom: 84px;
+  }
+  .nossos-servicos button {
+    width: 155px;
+    height: 51px;
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .nossos-servicos {
+    padding-top: 55px;
+    padding-bottom: 50px;
+  }
+  /*******/
+  .informacoes-servicos .box-right h2, .informacoes-servicos .box-center h2, .informacoes-servicos .box-left h2 {
+    font-size: 21px;
+  }
+  .informacoes-servicos .box-right p, .informacoes-servicos .box-center p, .informacoes-servicos .box-left p {
+    font-size: 16px;
+    line-height: 138.19%;
+  }
+  .informacoes-servicos {
+    height: 310px;
+    padding: 50px 0;
+  }
+  /*******/
+  .contato-home h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .contato-home button {
+    font-size: 16px;
+    line-height: 23px;
+    width: 200px;
+    height: 66px;
+  }
+  /***/
+  .bg-rodape {
+    background: #1A1F26;
+    height: inherit;
+    padding-bottom: 100px;
+  }
+  .bg-rodape .menu-rodape.border {
+    border-left: none;
+    border-right: none;
+    padding-right: 15px;
+    padding-left: 0;
+    padding-bottom: 53px;
+  }
+  .info-rodape {
+    padding: 0;
+  }
+  .menu-rodape {
+    padding: 0;
+  }
+  /*******/
+  .banner-interna .box-banner-interna h1 {
+    font-size: 29px;
+    margin-top: 0;
+  }
+  .banner-interna {
+    background-size: cover;
+    height: 227px;
+    margin-top: -3px;
+  }
+  .quem-somos-interna h3 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .quem-somos-interna p {
+    font-size: 17px;
+    line-height: 28px;
+    margin-bottom: 0px;
+  }
+  .quem-somos-interna img {
+    padding-top: 148px;
+  }
+  .box-banner-interna {
+    padding: 70px 0 0 0;
+  }
+  .quem-somos-interna {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .informacoes-servicos-interna .box-left h2 {
+    font-size: 30px;
+  }
+  .informacoes-servicos-interna .box-left p {
+    font-size: 19px;
+    line-height: 29px;
+  }
+  /****/
+  .servicos-interna h3 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .servicos-interna p {
+    font-size: 18px;
+  }
+  /***/
+  .informacoes-servicos-interna-02 h3 {
+    font-size: 20px;
+  }
+  .informacoes-servicos-interna-02 h4 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .informacoes-servicos-interna-02 ul {
+    padding: 0;
+  }
+  /***/
+  .informacoes-servicos-interna-02 {
+    height: inherit;
+  }
+  .informacoes-servicos-interna-02 .box-left {
+    padding: 35px 0 0 0;
+  }
+  /**/
+   
+ 
+
+  /***/
+
+  /**/
+  .banner-interna.lojas .box-banner-interna h1 {
+    font-size: 30px;
+    line-height: 37px;
+    margin-top: 70px;
+  }
+  .banner-interna.lojas {
+    height: 400px;
+  }
+  .box-banner-interna {
+    padding: 90px 0 0 0;
+  }
+  /***/
+  .box-lojas h2 {
+    font-size: 19px;
+  }
+  .box-lojas p {
+    font-size: 15px;
+  }
+  .box-lojas {
+    height: 285px;
+    padding: 27px 0;
+    margin: -101px 0 0 0;
+  }
+  .box-lojas a {
+    width: 150px;
+    height: 55px;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 17px 14px 0 0;
+  }
+}
 
 @media(min-width: 541px) and (max-width: 767px) {}
 
 @media(min-width: 0px) and (max-width: 540px) {}
 
-@media(min-width: 0px) and (max-width: 767px) {}
+@media(min-width: 0px) and (max-width: 767px) {
+  .fale-conosco-orcamento {
+    height: inherit ;
+  }
+  .fale-conosco-orcamento h3{
+    text-align: center;
+  }
+  .bg-mensagem {
+    margin-top: 16px;
+  }
+  .fale-conosco-orcamento h2{
+    text-align: center;
+  }
+  .fale-conosco-orcamento p{
+    text-align: center;
+    font-size: 17px;
+  }
+  .fale-conosco-orcamento button{
+    margin: 0 auto;
+    display: block;
+    width: 185px;
+    height: 64px;
+  }
+  .bg-mensagem-box {
+    padding: 32px 0;
+  }
+  .fale-conosco-topo{
+    height:263px !important
+  }
+  .bg-loja-galeria ul li:hover:after {
+    background-size: 40px;
+  }
+  
 
-@media(min-width: 0px) and (max-width: 991px) {}
+  .chamada-lojas-internas .right {
+    padding: 0;
+  }
+
+  .banner-interna.lojas-internas {
+    height: 370px;
+  }
+  .banner-interna.lojas-internas .box-banner-interna h1{
+    font-size: 29px;
+    margin-top: 33px;
+  }
+  .chamada-lojas-internas .left h2 {
+    font-size: 21px;
+  }
+  .chamada-lojas-internas .left {
+    padding: 55px 0px 0px 0;
+  }
+  .chamada-lojas-internas .right p {
+    font-size: 17px;
+    text-align: center;
+  }
+  .chamada-lojas-internas .right h4 {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .chamada-lojas-internas {
+    background: #303641;
+    margin-top: -130px;
+    height: inherit;
+    padding: 0 0 50px 0;
+  }
+ 
+  .chamada-lojas-internas .right button {
+      font-size: 15px;
+      line-height: 23px;
+      width: 205px;
+      height: 50px;
+      margin: 0 auto;
+      display: block;
+  }
+  /****/
+  .banner .box-banner h1 {
+    font-size: 15px;
+    margin-top: 0;
+    text-align: center;
+  }
+  .banner .box-banner h2 {
+    font-size: 29px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .banner .box-banner button {
+    font-size: 16px;
+    line-height: 23px;
+    width: 230px;
+    height: 66px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 45px;
+  }
+  .banner {
+    height: 348px;
+    margin-top: 0;
+  }
+  .box-banner {
+    padding: 37px 0 0 0;
+  }
+  .banner .chamadas .box-chamadas h2 {
+    font-size: 25px;
+  }
+  .banner .chamadas .box-chamadas p {
+    font-size: 17px;
+    line-height: 26px;
+  }
+  /***/
+  .quem-somos h2 {
+    font-size: 15px;
+    line-height: 17px;
+    margin: 40px 0 0 0;
+    text-align: center;
+  }
+  .quem-somos h3 {
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 17px;
+    margin-top: 7px;
+    text-align: center;
+  }
+  .quem-somos p {
+    font-size: 17px;
+    line-height: 28px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .quem-somos button {
+    font-size: 16px;
+    line-height: 23px;
+    width: 190px;
+    height: 66px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+  }
+  .quem-somos img {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  /****/
+  .nossos-servicos h2 {
+    margin-top: 0;
+    font-size: 15px;
+  }
+  .nossos-servicos h3 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 50px;
+  }
+  .nossos-servicos h4 {
+    font-size: 19px;
+    margin: 15px 0 10px 0;
+  }
+  .nossos-servicos p {
+    font-size: 15px;
+    line-height: 170.19%;
+  }
+  .nossos-servicos .box-nossos-servicos {
+    height: 456px;
+    margin: 0 0;
+  }
+  .nossos-servicos .box-nossos-servicos.principal {
+    height: 524px;
+    background-size: 150%;
+  }
+  .nossos-servicos .box-right .box-nossos-servicos p {
+    margin-bottom: 84px;
+  }
+  .nossos-servicos button {
+    width: 155px;
+    height: 51px;
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .nossos-servicos {
+    padding-top: 55px;
+    padding-bottom: 50px;
+  }
+  /*******/
+  .informacoes-servicos .box-right h2, .informacoes-servicos .box-center h2, .informacoes-servicos .box-left h2 {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .informacoes-servicos .box-right p, .informacoes-servicos .box-center p, .informacoes-servicos .box-left p {
+    font-size: 17px;
+    line-height: 138.19%;
+  }
+  .informacoes-servicos {
+    height: 426px;
+    padding: 50px 0;
+    background-size: 2040px;
+  }
+  .informacoes-servicos .box-right, .informacoes-servicos .box-center, .informacoes-servicos .box-left {
+    padding: 10px 0;
+  }
+  .informacoes-servicos .box-center {
+    border: none
+  }
+  /*******/
+  .contato-home h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .contato-home button {
+    font-size: 16px;
+    line-height: 23px;
+    width: 200px;
+    height: 66px;
+  }
+  .contato-home {
+    padding: 35px 30px;
+    height: inherit;
+  }
+  .marcas {
+    height: 430px;
+  }
+  /***/
+  .bg-rodape {
+    background: #1A1F26;
+    height: inherit;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .bg-rodape .menu-rodape.border {
+    border-left: none;
+    border-right: none;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 15px;
+  }
+  .info-rodape {
+    padding: 0;
+  }
+  .menu-rodape {
+    padding: 0;
+  }
+  .bg-rodape img {
+    margin-top: 0px;
+    margin: 0 auto;
+    width: 130px;
+  }
+  .bg-rodape .menu-rodape h2, .info-rodape h2, .bg-rodape .menu-rodape ul li, .info-rodape ul.box-info-rodape li {
+    text-align: center
+  }
+  .info-rodape h2 {
+    margin: 0;
+  }
+  .info-rodape ul.rodape-redes-sociais {
+    padding: 0;
+    width: 188px;
+    height: 71px;
+    margin: 0 auto;
+    display: block;
+  }
+  .info-rodape ul.rodape-redes-sociais li {
+    margin: 20px 7px;
+  }
+  /*******/
+  .banner-interna .box-banner-interna h1 {
+    font-size: 29px;
+    margin-top: 0;
+  }
+  .banner-interna {
+    background-size: cover;
+    height: 227px;
+    margin-top: -3px;
+  }
+  .quem-somos-interna h3 {
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 17px;
+    margin-top: 7px;
+    text-align: center;
+  }
+  .quem-somos-interna p {
+    font-size: 17px;
+    line-height: 28px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .quem-somos-interna img {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .box-banner-interna {
+    padding: 70px 0 0 0;
+  }
+  .quem-somos-interna {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .informacoes-servicos-interna .box-left h2 {
+    font-size: 25px;
+  }
+  .informacoes-servicos-interna .box-left p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .informacoes-servicos-interna .box-left button {
+    font-size: 15px;
+  }
+  /****/
+  .servicos-interna h3 {
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+  }
+  .servicos-interna p {
+    font-size: 17px;
+    text-align: center;
+  }
+  .servicos-interna {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  /***/
+  .informacoes-servicos-interna-02 {
+    height: inherit;
+  }
+  .informacoes-servicos-interna-02 .box-left {
+    padding: 35px 30px 0px 30px
+  }
+  .informacoes-servicos-interna-02 ul li:hover i,
+  .informacoes-servicos-interna-02 ul li i {
+    width: 100%;
+    float: inherit;
+    margin: 0 auto;
+    display: block;
+  }
+  .informacoes-servicos-interna-02 ul{
+    padding: 0;
+  }
+  .informacoes-servicos-interna-02 h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .informacoes-servicos-interna-02 h4{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  /**/
+  .banner-interna.lojas .box-banner-interna h1 {
+    font-size: 25px;
+    line-height: 34px;
+    margin-top: 65px;
+  }
+  .banner-interna.lojas {
+    height: 450px;
+  }
+  .box-banner-interna {
+    padding: 90px 0 0 0;
+  }
+
+  /***/
+
+  /**/
+  .banner-interna.lojas .box-banner-interna h1 {
+    font-size: 30px;
+    line-height: 37px;
+    margin-top: 70px;
+  }
+  .banner-interna.lojas {
+    height: 310px;
+  }
+  .box-banner-interna {
+    padding: 90px 0 0 0;
+  }
+  /***/
+  .box-lojas h2 {
+    font-size: 19px;
+  }
+  .box-lojas p {
+    font-size: 15px;
+  }
+  .box-lojas {
+    height: 285px;
+    padding: 27px 0;
+    margin: 22px 0 0 0;
+  }
+  .box-lojas a {
+    width: 150px;
+    height: 55px;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 17px 14px 0 0;
+  }
+
+  /****/
+  /****/
+  /****/
+  .banner-interna.lojas-internas .box-banner-interna h1{
+    font-size: 29px;
+    margin-top: 50px;
+  }
+}
+
+@media(min-width: 0px) and (max-width: 991px) {
+  .bg-loja-galeria ul li {
+    float: left;
+    width: 50%;
+  }
+  .bg-loja-galeria ul li {
+    float: left;
+    width: 50%;
+    height: 150px;
+  }
+  .lojas-internas-orcamento h2 {
+    font-size: 20px;
+  }
+  .lojas-internas-orcamento form button {
+    width: 163px;
+    height: 53px;
+    margin-top: 30px;
+    margin: 0 auto;
+    display: block;
+    float: inherit;
+  }
+  .mapa button {
+    font-size: 17px;
+    width: 210px;
+    height: 77px;
+  }
+
+  .banner-interna.lojas-internas .box-banner-interna h1{
+    font-size: 29px;
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**Menu**/
+
+@media (min-width: 1200px) and (max-width: 1400px) {}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .menu .nav ul li {
+    padding: 5px 45px;
+  }
+  .menu .nav ul li a:after {
+    left: 46px;
+  }
+  .logo {
+    width: 128px;
+    height: 65px;
+  }
+  .menu {
+    height: 100px;
+  }
+  .nav ul {
+    padding: 25px 0 !important;
+    height: 70px !important;
+  }
+  .menu .nav ul li:hover a:after {
+    top: -45px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .menu .nav ul li {
+    padding: 3px 25px;
+  }
+  .menu .nav ul li a:after {
+    left: 26px;
+  }
+  .menu .nav ul li a {
+    font-size: 15px;
+  }
+  .logo {
+    width: 128px;
+    height: 65px;
+  }
+  .menu {
+    height: 100px;
+  }
+  .nav ul {
+    padding: 25px 0 !important;
+    height: 70px !important;
+  }
+  .menu .nav ul li:hover a:after {
+    top: -45px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu .nav ul li {
+    padding: 4px 15px;
+  }
+  .menu .nav ul li a:after {
+    left: 16px;
+  }
+  .menu .nav ul li a {
+    font-size: 15px;
+  }
+  .logo {
+    width: 128px;
+    height: 65px;
+  }
+  .menu {
+    height: 100px;
+  }
+  .nav ul {
+    padding: 25px 0 !important;
+    height: 70px !important;
+  }
+  .menu .nav ul li:hover a:after {
+    top: -45px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .menu {
+    padding: 22px 15px;
+    height: 84px;
+  }
+  .logo {
+    margin: -9px 0 0 15px;
+    z-index: 7;
+    position: relative;
+    width: 104px;
+    height: 53px;
+  }
+  .menu.active .nav ul li {
+    padding: 5% 22px;
+    text-align: left;
+  }
+  .menu .nav ul li a:after {
+    width: 24px;
+    left: 22px;
+    margin-top: 39px;
+    display: none;
+  }
+}
+
+@media (min-width: 767px) {
+  .nav ul {
+    display: block;
+    margin: 0;
+    padding: 39px 0;
+    height: 100px;
+    float: right;
+  }
+  .nav ul li {
+    list-style: none;
+    float: left;
+  }
+  .nav-tgl {
+    display: none;
+  }
+  .menu .nav ul li {
+    margin-left: 0px;
+    padding: 0 16px;
+    position: relative;
+  }
+}
+
+/**Menu**/

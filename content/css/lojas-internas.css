@@ -2,7 +2,7 @@
 
  .banner-interna.lojas-internas {
     background: url("../img/bg-lojas-internas.png");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -143,28 +143,31 @@
 
 /***/
 
-.bg-loja-galeria {
-    height: 774px;
-}
+ 
 
 .bg-loja-galeria ul {
     padding: 0;
     margin: 0;
+    overflow: hidden;
 }
 
 .bg-loja-galeria ul li {
     float: left;
     width: 33.33%;
-    height: 387px;
     position: relative;
     cursor: pointer;
     transition: 1s;
 }
 
+.bg-loja-galeria ul li img{
+    /* width: 100%; */
+}
+ 
+
 .bg-loja-galeria ul li:hover:before {
     content: "";
     width: 100%;
-    height: 387px;
+    height: -webkit-fill-available;
     background: #00000099;
     position: absolute;
     top: 0;
@@ -174,9 +177,11 @@
     background: url("../img/icon-zoom.png") no-repeat center;
     content: "";
     width: 100%;
-    height: 387px;
+    height: -webkit-fill-available;
     position: absolute;
     top: 0;
+    left: 0;
+    right: 0;
 }
 
 .lojas-internas-orcamento {

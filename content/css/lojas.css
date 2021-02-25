@@ -2,7 +2,7 @@
 
  .banner-interna.lojas {
     background: url("../img/bg-lojas.png");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -163,7 +163,7 @@
     padding-right: 14px;
     text-align: center;
     padding: 20px 14px 0 0;
-    text-decoration: none;
+    text-decoration: none !important;
     cursor: pointer;
 }
 

@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>RW Cell</title>
 
+    <link href="content/css/lojas.css" rel="stylesheet">
+
     <!-- Script -->
     <?php include 'style-internas.php';?>
     <!-- / Script -->    
     
-    <link href="content/css/lojas.css" rel="stylesheet">
 
 </head>
 
@@ -35,7 +36,7 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-xs-12 col-sm-4 col-md-4">
                     <div class="box-lojas">
                         <i></i>
                         <h2>Loja 01</h2>
@@ -43,7 +44,7 @@
                         <a href="loja-01.php">Conheça <span></span></a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-xs-12 col-sm-4 col-md-4">
                     <div class="box-lojas">
                         <i></i>
                         <h2>Loja 02</h2>
@@ -51,7 +52,7 @@
                         <a href="loja-02.php">Conheça <span></span></a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-xs-12 col-sm-4 col-md-4">
                     <div class="box-lojas">
                         <i></i>
                         <h2>Loja 03</h2>

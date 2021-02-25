@@ -10,17 +10,17 @@
 
       <div class="chamadas">
         <div class="row">
-          <div class="col-md-4 box-chamadas">
+          <div class="col-xs-12 col-sm-4 col-md-4 box-chamadas">
             <i class="icon-qualidade"></i>
             <h2>Qualidade</h2>
             <p>Em serviço e em peças, com<br>qualidade assegurada em<br>todos os reparos</p>
           </div>
-          <div class="col-md-4 box-chamadas central">
+          <div class="col-xs-12 col-sm-4 col-md-4 box-chamadas central">
             <i class="icon-garantia"></i>
             <h2>Garantia</h2>
             <p>Todos os reparos, incluindo<br>peças e serviços que são<br>garantidos por <b>3 meses</b></p>
           </div>
-          <div class="col-md-4 box-chamadas">
+          <div class="col-xs-12 col-sm-4 col-md-4 box-chamadas">
             <i class="icon-especializacao"></i>
             <h2>Especialização</h2>
             <p>Técnicos especializados em<br>Apple, Samsung, Motorola,<br>Xiaomi e mais!</p>
@@ -33,10 +33,10 @@
   <section class="quem-somos">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-xs-12 col-sm-7 col-md-6">
           <img src="content/img/quem-somos.png" class="img-responsive">
         </div>
-        <div class="col-md-6">
+        <div class="col-xs-12 col-sm-5 col-md-6">
           <h2>quem somos</h2>
           <h3>Caiu, quebrou, consertou! </h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin est urna, efficitur eu ullamcorper in,
@@ -60,7 +60,7 @@
       </div>
 
       <div class="row">
-        <div class="col-md-4 box-left">
+        <div class="col-xs-12 col-sm-4 col-md-4 box-left">
           <div class="box-nossos-servicos ">
             <i class="icon-quebrou"></i>
             <h4>Caiu e quebrou?</h4>
@@ -77,7 +77,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 box-center">
+        <div class="col-xs-12 col-sm-4 col-md-4 box-center">
           <div class="box-nossos-servicos principal">
             <i class="icon-molhou"></i>
             <h4>Molhou ou não liga?</h4>
@@ -94,7 +94,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 box-right">
+        <div class="col-xs-12 col-sm-4 col-md-4 box-right">
           <div class="box-nossos-servicos">
             <i class="icon-servicos"></i>
             <h4>Demais serviços</h4>
@@ -112,32 +112,31 @@
       </div>
     </div>
   </section>
-
+  
   <section class="informacoes-servicos">
     <div class="container">
 
       <div class="row">
-        <div class="col-md-4 box-left">
+        <div class="col-xs-12 col-sm-4 col-md-4 box-left">
           <h2>+ de 250</h2>
           <p>Clientes atendidos<br>mensalmente</p>
         </div>
-        <div class="col-md-4 box-center">
+        <div class="col-xs-12 col-sm-4 col-md-4 box-center">
           <h2>99,8%</h2>
           <p>Taxa de satisfação com<br>nosso atendimento</p>
         </div>
-        <div class="col-md-4 box-right">
+        <div class="col-xs-12 col-sm-4 col-md-4 box-right">
           <h2>3 meses</h2>
           <p>De garantia em todos<br>os reparos e serviços</p>
         </div>
       </div>
 
     </div>
-  </section>
+  </section>  
 
   <!-- marcas -->
   <?php include 'marcas.php';?>
   <!-- / marcas -->
-
 
   <!-- contato-home -->
   <?php include 'contato-home.php';?>

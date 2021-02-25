@@ -7,11 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>RW Cell</title>
 
+  <link href="content/css/fale-conosco.css" rel="stylesheet">
+  
   <!-- Script -->
   <?php include 'style-internas.php';?>
   <!-- / Script -->     
   
-  <link href="content/css/fale-conosco.css" rel="stylesheet">
 
 </head>
 
@@ -21,7 +22,7 @@
   <?php include 'menu.php';?>
   <!-- / MENU -->
 
-  <section class="banner-interna lojas-internas">
+  <section class="banner-interna lojas-internas fale-conosco-topo">
     <div class="container">
       <div class="row">
         <div class="col-md-12 box-banner-interna">
@@ -34,7 +35,7 @@
   <section class="fale-conosco-orcamento">
     <div class="container">
       <div class="row">
-        <div class="col-md-5 bg-mensagem-box">
+        <div class="col-xs-12 col-sm-5 col-md-5 bg-mensagem-box">
           <h2>RW Cell</h2>
           <p>
             Av. Prof. Alfonso Bovero, 1169 - Pompeia<br>
@@ -43,7 +44,7 @@
           </p>
           <button>Whatsapp</button>
         </div>
-        <div class="col-md-7 bg-mensagem">
+        <div class="col-xs-12 col-sm-7 col-md-7 bg-mensagem">
           <h3>Envie sua mensagem</h3>
 
           <form>

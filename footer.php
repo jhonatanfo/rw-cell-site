@@ -2,11 +2,11 @@
     <div class="container">
       <div class="row">
 
-        <div class="col-md-3">
-          <img src="content/img/logo-rodape.png">
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <img src="content/img/logo-rodape.png" class="img-responsive">
         </div>
 
-        <div class="col-md-2 menu-rodape">
+        <div class="col-xs-12 col-sm-6 col-md-2 menu-rodape">
           <h2>Home</h2>
           <ul>
             <li><a href="#" alt="Empresa">Empresa</a></li>
@@ -17,7 +17,7 @@
           </ul>
         </div>
 
-        <div class="col-md-2 menu-rodape border">
+        <div class="col-xs-12 col-sm-6 col-md-2 menu-rodape border">
           <h2>Serviços</h2>
           <ul>
             <li><a href="#" alt="Celulares">Celulares</a></li>
@@ -27,7 +27,7 @@
           </ul>
         </div>
 
-        <div class="col-md-5 info-rodape">
+        <div class="col-xs-12 col-sm-6 col-md-5 info-rodape">
           <h2>Fale conosco</h2>
           <ul class="box-info-rodape">
             <li><b>Whatsapp:</b> (11) 95067-7181</li>

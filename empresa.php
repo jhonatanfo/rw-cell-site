@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>RW Cell</title>
  
+  <link href="content/css/empresa.css" rel="stylesheet">
+
   <!-- Script -->
   <?php include 'style-internas.php';?>
   <!-- / Script -->
-
-  <link href="content/css/empresa.css" rel="stylesheet">
 
 </head>
 
@@ -34,10 +34,10 @@
   <section class="quem-somos-interna">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-xs-12 col-sm-6 col-md-6">
           <img src="content/img/quem-somos-02.png" class="img-responsive">
         </div>
-        <div class="col-md-6">
+        <div class="col-xs-12 col-sm-6 col-md-6">
           <h3>Caiu, quebrou, consertou! </h3>
           <p>A Rw Cell, é uma empresa focada na manutenção de CELULARES, TABLETS em geral e também assessoria para uso e
             configuração do celular. Estamos sempre nos atualizando junto as fábricas para oferecer um serviço de
@@ -55,6 +55,7 @@
     </div>
   </section>
 
+ 
   <section class="informacoes-servicos-interna">
     <div class="container">
 
@@ -68,18 +69,18 @@
       </div>
 
     </div>
-  </section>
+  </section>  
 
   <!-- marcas -->
-  <?php include 'marcas.php';?>
+  <?php include 'marcas.php';?> 
   <!-- / marcas -->
 
   <!-- contato-home -->
-  <?php include 'contato-home.php';?>
+  <?php include 'contato-home.php';?>  
   <!-- / contato-home -->
 
   <!-- footer -->
-  <?php include 'footer.php';?>
+  <?php include 'footer.php';?> 
   <!-- / footer -->
 
   <!-- Script -->

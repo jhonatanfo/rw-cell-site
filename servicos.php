@@ -7,12 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>RW Cell</title>
   
+  <link href="content/css/servicos.css" rel="stylesheet">
+
   <!-- Script -->
   <?php include 'style-internas.php';?>
   <!-- / Script -->
-
-  <link href="content/css/servicos.css" rel="stylesheet">
-
+  
 </head>
 
 <body>
@@ -101,7 +101,7 @@
       </div>
 
       <div class="row">
-        <div class="col-md-4 box-left">
+        <div class="col-xs-12 col-sm-4 col-md-4 box-left">
           <div class="box-nossos-servicos ">
             <i class="icon-quebrou"></i>
             <h4>Caiu e quebrou?</h4>
@@ -118,7 +118,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 box-center">
+        <div class="col-xs-12 col-sm-4 col-md-4 box-center">
           <div class="box-nossos-servicos principal">
             <i class="icon-molhou"></i>
             <h4>Molhou ou não liga?</h4>
@@ -135,7 +135,7 @@
           </div>
         </div>
 
-        <div class="col-md-4 box-right">
+        <div class="col-xs-12 col-sm-4 col-md-4 box-right">
           <div class="box-nossos-servicos">
             <i class="icon-servicos"></i>
             <h4>Demais serviços</h4>
@@ -151,8 +151,9 @@
         </div>
 
       </div>
+      
     </div>
-  </section>
+  </section>  
 
   <!-- marcas -->
   <?php include 'marcas.php';?>
