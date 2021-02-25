@@ -6,61 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>RW Cell</title>
-    <link href="content/css/bootstrap.min.css" rel="stylesheet">
-    <link href="content/css/style.css" rel="stylesheet">
+
+    <!-- Script -->
+    <?php include 'style-internas.php';?>
+    <!-- / Script -->    
+
     <link href="content/css/lojas-internas.css" rel="stylesheet">
-    <link href="content/css/mobile.css" rel="stylesheet">
-
-    <!--SLICK-->
-    <link rel="stylesheet" type="text/css" href="content/slick/slick.css">
-    <link rel="stylesheet" type="text/css" href="content/slick/slick-theme.css">
-    <link rel="stylesheet" type="text/css" href="content/slick/slick-animation.css">
-    <!--//SLICK-->
-
-
-    <link href="content/dist/css/lightgallery.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
 </head>
 
 <body>
 
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#">
-                    <img src="content/img/logo.png" class="logo">
-                </a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">HOME</a>
-                    </li>
-                    <li>
-                        <a href="#">EMPRESA</a>
-                    </li>
-                    <li>
-                        <a href="#">SERVIÇOS</a>
-                    </li>
-                    <li>
-                        <a href="#">LOJAS</a>
-                    </li>
-                    <li class="ativo">
-                        <a href="#">FALE CONOSCO</a>
-                    </li>
-
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <!-- MENU -->
+    <?php include 'menu.php';?>
+    <!-- / MENU -->
 
     <section class="banner-interna lojas-internas">
         <div class="container">
@@ -249,150 +208,26 @@
         </div>
     </section>
 
-    <section class="mapa">
+    <section class="mapa ativo">
+        <button>Veja como chegar</button>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.8787733272875!2d-46.6880969850227!3d-23.536862184694982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57e610804c4f%3A0x5b4db45bd53f4c5e!2sAv.%20Prof.%20Alfonso%20Bovero%2C%201169%20-%20Pompeia%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005019-011!5e0!3m2!1spt-BR!2sbr!4v1614015463289!5m2!1spt-BR!2sbr" width="100%" height="517" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </section>
 
-    <section class="marcas">
-        <div class="container">
+    <!-- marcas -->
+    <?php include 'marcas.php';?>
+    <!-- / marcas -->
 
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="slide-marcas">
+    <!-- contato-home -->
+    <?php include 'contato-home.php';?>
+    <!-- / contato-home -->
 
-                        <img src="content/img/marca-01.png">
-                        <img src="content/img/marca-02.png">
-                        <img src="content/img/marca-03.png">
-                        <img src="content/img/marca-04.png">
-                        <img src="content/img/marca-05.png">
-                        <img src="content/img/marca-06.png">
-                        <img src="content/img/marca-01.png">
+    <!-- footer -->
+    <?php include 'footer.php';?>
+    <!-- / footer -->
 
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section style="position: relative; z-index: 2;">
-        <div class="container">
-            <div class="contato-home">
-                <div class="row">
-                    <div class="col-md-12">
-                        <i></i>
-                        <h2>
-                            Entre em contato, faça o seu orçamento e<br>
-                            volte a ficar online em pouco tempo
-                        </h2>
-                        <h3>Temos condições de pagamento facilitadas!</h3>
-                        <button>Whatsapp</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="bg-rodape">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-3">
-                    <img src="content/img/logo-rodape.png">
-                </div>
-
-                <div class="col-md-2 menu-rodape">
-                    <h2>Home</h2>
-                    <ul>
-                        <li><a href="#" alt="Empresa">Empresa</a></li>
-                        <li><a href="#" alt="Serviços">Serviços</a></li>
-                        <li><a href="#" alt="Loja Virtual">Loja Virtual</a></li>
-                        <li><a href="#" alt="Localização">Localização</a></li>
-                        <li><a href="#" alt="Fale Conosco">Fale Conosco</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-md-2 menu-rodape border">
-                    <h2>Serviços</h2>
-                    <ul>
-                        <li><a href="#" alt="Celulares">Celulares</a></li>
-                        <li><a href="#" alt="Tablets">Tablets</a></li>
-                        <li><a href="#" alt="Assessoria para Uso e Configuração do Celular">Assessoria para Uso<br>e
-                                Configuração do
-                                Celular</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-md-5 info-rodape">
-                    <h2>Fale conosco</h2>
-                    <ul class="box-info-rodape">
-                        <li><b>Whatsapp:</b> (11) 95067-7181</li>
-                        <li><b>Loja 1:</b> (11) 3868-1077 - Av. Prof Alfonso Bovero 1169</li>
-                        <li><b>Loja 2:</b> (11) 3675-0645 - Av Prof Alfonso Bovero 1231</li>
-                        <li><b>Loja 3:</b> (11) 3875-5533 - Av Prof Alfonso Bovero 475</li>
-                    </ul>
-                    <ul class="rodape-redes-sociais">
-                        <li><a href=""><i class="icon-instagram"></i></a></li>
-                        <li><a href=""><i class="icon-linkedin"></i></a></li>
-                        <li><a href=""><i class="icon-twitter"></i></a></li>
-                        <li><a href=""><i class="icon-facebook"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer> 
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="content/js/bootstrap.min.js"></script>
-
-    <!--Slick script-->
-    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-    <script src="content/slick/slick.js" type="text/javascript" charset="utf-8"></script>
-    <script type="text/javascript" src="content/slick/slick-animation.js"></script>
-    <!--/Slick script-->
-    
-    <script src="content/dist/js/lightgallery-all.min.js"></script>
-
-
-    <script src="content/js/padrao.js" type="text/javascript" charset="utf-8"></script>
-
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#lightgallery').lightGallery();
-
-            $(".nome").focus(function() {
-                $('.icon-form-nome').addClass('ativo');
-            });
-
-            $(".nome").focusout(function() {
-                $('.icon-form-nome').removeClass('ativo');
-            });
-
-            $(".telefone").focus(function() {
-                $('.icon-form-tel').addClass('ativo');
-            });
-
-            $(".telefone").focusout(function() {
-                $('.icon-form-tel').removeClass('ativo');
-            });
-
-            $(".email").focus(function() {
-                $('.icon-form-email').addClass('ativo');
-            });
-
-            $(".email").focusout(function() {
-                $('.icon-form-email').removeClass('ativo');
-            });
-
-            $(".mensagem").focus(function() {
-                $('.icon-form-msg').addClass('ativo');
-            });
-
-            $(".mensagem").focusout(function() {
-                $('.icon-form-msg').removeClass('ativo');
-            });
-        });
-    </script>
+    <!-- Script -->
+    <?php include 'script-internas.php';?>
+    <!-- / Script -->
 
 </body>
 

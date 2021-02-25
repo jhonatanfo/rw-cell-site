@@ -1,0 +1,188 @@
+ /* banner interna*/
+
+ .banner-interna.lojas-internas {
+    background: url("../img/bg-fale-conosco.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 453px;
+    background-size: cover;
+    margin-top: -94px;
+}
+
+.box-banner-interna.lojas-internas {
+    z-index: 2;
+    padding: 112px 0 0 0;
+}
+
+.banner-interna.lojas-internas .box-banner-interna h1 {
+    text-transform: unset;
+    margin-bottom: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.fale-conosco-orcamento {
+    background: url("../img/bg-fale-conosco-2.png") center;
+    height: 515px;
+    width: 100%;
+}
+
+.fale-conosco-orcamento h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #303641;
+    margin-bottom: 37px;
+}
+
+.fale-conosco-orcamento form label {
+    width: 100%;
+}
+
+.fale-conosco-orcamento form label i.icon-form-nome {
+    background-image: url("../img/icon-form-nome.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 39px;
+    height: 39px;
+    float: left;
+    margin-right: 11px;
+}
+
+.fale-conosco-orcamento form label i.icon-form-nome.ativo {
+    background-image: url("../img/icon-form-nome-hover.svg");
+}
+
+.fale-conosco-orcamento form label i.icon-form-tel {
+    background: url("../img/icon-form-tel.svg") no-repeat center;
+    width: 39px;
+    height: 39px;
+    float: left;
+    margin-right: 11px;
+}
+
+.fale-conosco-orcamento form label i.icon-form-tel.ativo {
+    background-image: url("../img/icon-form-tel-hover.svg");
+}
+
+.fale-conosco-orcamento form label i.icon-form-email {
+    background: url("../img/icon-form-email.svg") no-repeat center;
+    width: 39px;
+    height: 39px;
+    float: left;
+    margin-right: 11px;
+}
+
+.fale-conosco-orcamento form label i.icon-form-email.ativo {
+    background-image: url("../img/icon-form-email-hover.svg");
+}
+
+.fale-conosco-orcamento form label i.icon-form-msg {
+    background: url("../img/icon-form-msg.svg") no-repeat center;
+    width: 39px;
+    height: 39px;
+    float: left;
+    margin-right: 11px;
+}
+
+.fale-conosco-orcamento form label i.icon-form-msg.ativo {
+    background-image: url("../img/icon-form-msg-hover.svg");
+}
+
+.fale-conosco-orcamento form label {
+    border-bottom: 1px solid #CECECE;
+    margin-bottom: 34px;
+}
+
+.fale-conosco-orcamento form input {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 106%;
+    color: #878787;
+    border: none;
+    width: calc(100% - 50px);
+    height: 50px;
+    outline: none;
+}
+
+.fale-conosco-orcamento form button {
+    width: 195px;
+    height: 66px;
+    background: #FFFFFF;
+    border: 1px solid #BF2226;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #BF2226;
+    outline: none;
+    margin: 0 auto;
+    display: block;
+    margin-top: 33px;
+}
+
+.bg-mensagem{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(159, 159, 159, 0.25);
+    border-radius: 8px;
+    margin-top: -55px;
+    padding: 50px 75px;
+}
+
+.fale-conosco-orcamento h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 35px;
+    color: #ECE21B;
+}
+
+.fale-conosco-orcamento p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 169.19%;
+    /* or 42px */
+    color: #FFFFFF;
+}
+
+.fale-conosco-orcamento button{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    background: linear-gradient(90deg, #BF2226 0%, #EC4456 137.82%);
+    border-radius: 7px;
+    color: #FFFFFF;
+    width: 198px;
+    height: 80px;
+    border: none;
+    outline: none;
+}
+
+.bg-mensagem-box{
+    padding: 125px 0;
+}
+
+
+.marcas{
+    padding: 108px 0 98px 0;
+    height: 530px;
+}

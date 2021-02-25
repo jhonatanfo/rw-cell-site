@@ -132,5 +132,58 @@
     background: url("../img/icon-seta-red.svg");
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box-lojas a {
+    width: 200px;
+    height: 65px;
+    background: linear-gradient(90deg, #BF2226 0%, #EC4456 137.82%);
+    border-radius: 7px;
+    margin: 0 auto;
+    display: block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    padding-right: 14px;
+    text-align: center;
+    padding: 20px 14px 0 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.box-lojas a span {
+    background: url("../img/icon-seta-white.svg");
+    background-size: cover;
+    width: 7px;
+    height: 13px;
+    position: absolute;
+    margin: 6px 0 0 16px;
+}
+
+.box-lojas:hover a {
+    background: white;
+    color: #BF2226;
+}
+
+.box-lojas:hover a span {
+    background: url("../img/icon-seta-red.svg");
+}
+
 /***/
 
