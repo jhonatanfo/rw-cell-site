@@ -45,3 +45,7 @@
       </div>
     </div>
   </footer>
+
+  <!-- Conteudo -->
+  <?php include 'whatsapp.php';?>
+  <!-- Conteudo -->
