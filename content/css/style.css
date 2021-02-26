@@ -986,3 +986,118 @@ select {
 }
 
 /***/
+
+.icon-whatsapp.ativo{
+    bottom: 250px;
+}
+
+.icon-whatsapp{
+    background-image: url("data:image/svg+xml,%3Csvg width='87' height='87' viewBox='0 0 87 87' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='43.5' cy='43.5' r='41.5' fill='url(%23paint0_linear)' stroke='white' stroke-width='4'/%3E%3Cg clip-path='url(%23clip0)'%3E%3Cpath d='M23 62.9995C24.0068 59.9969 24.8668 57.2319 25.8758 54.5212C26.3431 53.2654 26.2731 52.2608 25.6907 51.0231C22.4605 44.1377 22.9345 37.388 27.3544 31.2335C31.8713 24.9432 38.2303 22.2234 45.9368 23.1896C55.2483 24.3571 62.3341 31.9711 62.9571 41.2233C63.5711 50.3465 57.6682 58.7547 48.8014 61.2821C43.9865 62.6556 39.2889 62.2279 34.7246 60.1259C34.1851 59.877 33.4154 59.8385 32.8397 60.006C29.9549 60.8454 27.0993 61.7867 24.2325 62.6873C23.9187 62.7868 23.5959 62.8502 23 62.9995ZM27.921 58.2207C29.8668 57.6166 31.5237 57.1527 33.1445 56.5757C33.8871 56.3132 34.4447 56.3721 35.1422 56.7545C40.2054 59.5308 45.3883 59.7254 50.6027 57.2183C58.0203 53.6546 61.6501 44.9545 58.9662 37.3111C56.1603 29.3238 47.9097 24.6377 39.8623 26.4615C28.5056 29.0341 23.2957 41.6283 29.4786 51.5028C29.7246 51.8965 29.772 52.564 29.6411 53.0233C29.1625 54.6796 28.5689 56.2974 27.921 58.2207Z' fill='white'/%3E%3Cpath d='M37.1332 33.6527C38.0655 33.4649 38.5553 33.9311 38.8601 34.7343C39.1806 35.5783 39.4583 36.4562 39.9052 37.2301C40.5215 38.3026 40.3454 39.1873 39.4853 39.9498C38.623 40.7124 38.7201 41.4048 39.3431 42.2804C40.8443 44.387 42.7156 45.9958 45.1016 47.023C45.8149 47.3285 46.2686 47.2086 46.7698 46.6474C48.5508 44.6585 48.5666 44.6721 51.0136 45.8193C51.2867 45.946 51.5598 46.0727 51.8262 46.2107C53.5282 47.0796 53.7901 48.797 52.3725 50.1433C51.009 51.4376 49.3928 51.9919 47.5079 51.5665C41.3318 50.175 37.1445 46.3058 34.3657 40.7916C33.2573 38.5945 33.4673 36.3703 35.1941 34.4967C35.6569 33.9944 36.395 33.7455 37.0068 33.3812C37.0497 33.4717 37.0903 33.5622 37.1332 33.6527Z' fill='white'/%3E%3C/g%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear' x1='43.5' y1='4' x2='43.5' y2='83' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%2340B857'/%3E%3Cstop offset='1' stop-color='%2335A74B'/%3E%3C/linearGradient%3E%3CclipPath id='clip0'%3E%3Crect width='40' height='40' fill='white' transform='translate(23 23)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+    background-position: center;
+    width: 87px;
+    height: 87px;
+    position: fixed;
+    bottom: 50px;
+    right: 156px;
+    animation: fadeIn 5s;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.icon-whatsapp .box{
+    background-image: url("data:image/svg+xml,%3Csvg width='299' height='185' viewBox='0 0 299 185' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15 23C15 19.134 18.134 16 22 16H272C275.866 16 279 19.134 279 23V177C279 180.866 275.866 184 272 184H22C18.134 184 15 180.866 15 177V23Z' fill='white'/%3E%3Cmask id='mask0' mask-type='alpha' maskUnits='userSpaceOnUse' x='15' y='16' width='264' height='145'%3E%3Cpath d='M15 23C15 19.134 18.134 16 22 16H272C275.866 16 279 19.134 279 23V154C279 157.866 275.866 161 272 161H22C18.134 161 15 157.866 15 154V23Z' fill='white'/%3E%3C/mask%3E%3Cg mask='url(%23mask0)'%3E%3Crect x='-0.0166859' y='3.7991' width='72.2764' height='133.497' rx='36.1382' transform='matrix(0.646781 0.762676 -0.653455 0.756965 265.978 105.761)' stroke='%23E0E0E0' stroke-opacity='0.3' stroke-width='5'/%3E%3Crect x='-0.0166859' y='3.7991' width='72.2764' height='137.831' rx='36.1382' transform='matrix(0.646781 0.762676 -0.653455 0.756965 81.81 -92.9265)' stroke='%23E0E0E0' stroke-opacity='0.3' stroke-width='5'/%3E%3C/g%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    width: 304px;
+    height: 207px;
+    position: absolute;
+    margin: 92px 0 0 -112px;
+    background-position: center;
+    display: none;
+}
+
+.icon-whatsapp.ativo .box {
+    display: block;
+}
+
+.icon-whatsapp .box h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #3A404A;
+    margin: 72px 0 37px 0;
+}
+
+.icon-whatsapp .box h3 span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    color: #40B857;
+}
+
+.icon-whatsapp .box a{
+    width: 179px;
+    height: 52px;
+    background: #3FB656;
+    border-radius: 7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    padding: 16px 0;
+    transition: 0.5s;
+}
+.icon-whatsapp .box a:hover{
+background: #369047;
+}
+
+
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

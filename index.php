@@ -26,6 +26,13 @@
   <!-- Conteudo -->
   <?php include 'footer.php';?>
   <!-- Conteudo -->
+
+  <div class="icon-whatsapp">
+    <div class="box">
+      <h3>Entre em contato<br><span>pelo Whatsapp</span></h3>
+      <a href="#">Faça seu orçamento</a>
+    </div>
+  </div>
    
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="content/js/bootstrap.min.js"></script>
@@ -37,7 +44,13 @@
   <!--/Slick script-->
 
   <script src="content/js/padrao.js" type="text/javascript" charset="utf-8"></script>
-  
+
+  <script>
+    $(".icon-whatsapp").click(function () {
+      $('.icon-whatsapp').toggleClass('ativo');
+    });
+  </script>
+
 </body>
 
 </html>
