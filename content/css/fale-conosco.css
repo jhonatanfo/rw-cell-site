@@ -135,6 +135,13 @@
     margin-top: 33px;
 }
 
+.fale-conosco-orcamento form button:hover {
+    background: #2b323c;
+    transition: all 0.2s linear;
+    border: none;
+    color: white;
+}
+
 .bg-mensagem{
     background: #FFFFFF;
     box-shadow: 0px 4px 20px rgba(159, 159, 159, 0.25);
@@ -175,6 +182,11 @@
     height: 80px;
     border: none;
     outline: none;
+}
+
+.fale-conosco-orcamento button:hover{
+    background: #2b323c;
+    transition: all 0.2s linear;
 }
 
 .bg-mensagem-box{

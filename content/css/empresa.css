@@ -52,6 +52,12 @@
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
+    transition: all 0.2s linear;
+}
+
+.informacoes-servicos-interna .box-left button:hover {
+    background: #1d242d;
+    border: transparent;
 }
 
 .informacoes-servicos-interna .box-center {

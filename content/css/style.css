@@ -231,12 +231,15 @@ body {
     text-decoration: none;
     text-align: center;
     display: block;
+    transition: all 0.2s linear;
 }
 
 .menu .nav ul li:hover a{
     color: #BF2226;
     font-weight: bold;
 }
+
+ 
 
 .menu .nav ul li:hover a:after {
     content: "";
@@ -408,6 +411,11 @@ body {
     border: none;
     outline: none;
     margin-bottom: 100px;
+    transition: 0.2s;
+}
+
+.banner .box-banner button:hover {
+    background: #2b323c;
 }
 
 .banner .chamadas {
@@ -529,6 +537,11 @@ body {
     border: none;
     outline: none;
     margin-top: 20px;
+    transition: 0.2s;
+}
+
+.quem-somos button:hover{
+    background: #2b323c;
 }
 
 /***/
@@ -627,6 +640,13 @@ body {
     outline: none;
     margin: 0 auto;
     display: block;
+    transition: 0.2s;
+}
+
+.nossos-servicos button:hover {
+    background: #2b323c;
+    border: 1px solid transparent;
+    color: white;
 }
 
 .nossos-servicos .box-nossos-servicos {
@@ -806,6 +826,11 @@ body {
     outline: none;
     margin: 0 auto;
     display: block;
+    transition: 0.2s;
+}
+
+.contato-home button:hover {
+    background: #2b323c;
 }
 
 /***/
@@ -849,6 +874,10 @@ body {
     list-style: none;
 }
 
+.bg-rodape .menu-rodape ul li a:hover {
+    color: #BF2226;
+}
+
 .bg-rodape .menu-rodape ul li a {
     font-family: Roboto;
     font-style: normal;
@@ -857,6 +886,7 @@ body {
     line-height: 30px;
     color: #FFFFFF;
     text-decoration: none;
+    transition: 0.2s;
 }
 
 .info-rodape {
@@ -901,6 +931,14 @@ body {
     list-style: none;
     float: left;
     margin: 20px 30px 0 0;
+}
+
+.info-rodape ul.rodape-redes-sociais li a i{
+    transition: 0.2s;
+}
+
+.info-rodape ul.rodape-redes-sociais li a i:hover{
+    opacity: 0.2;
 }
 
 .info-rodape ul.rodape-redes-sociais li a i.icon-instagram {
@@ -1101,3 +1139,29 @@ background: #369047;
         opacity: 1;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

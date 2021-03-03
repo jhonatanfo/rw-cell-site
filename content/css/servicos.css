@@ -91,6 +91,9 @@
     height: 61px;
     float: left;
 }
+.informacoes-servicos-interna-02 i{
+    transition: all 0.2s linear;
+}
 
 .informacoes-servicos-interna-02 i {
     background: url("../img/icon-celular.svg") center no-repeat;

@@ -102,6 +102,11 @@
     border: none;
     outline: none;
     padding-right: 25px;
+    transition: all 0.2s linear;
+}
+
+.chamada-lojas-internas .right button:hover {
+    background: #2b323c;
 }
 
 .chamada-lojas-internas .right button span {
@@ -291,7 +296,15 @@
     outline: none;
     float: right;
     margin-top: 30px;
+    transition: all 0.2s linear;
 }
+
+.lojas-internas-orcamento form button:hover {
+    background: #2b323c;
+    border: transparent;
+    color: white;
+}
+
 
 .mapa{
     background: #E5E5E5;
@@ -317,6 +330,12 @@
     right: 0;
     margin-top: 200px;
     display: none;
+    transition: all 0.2s linear;
+}
+
+.mapa button:hover{
+    background: #2b323c;
+    color: white;
 }
 
 .mapa.ativo button{
