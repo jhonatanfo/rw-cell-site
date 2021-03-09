@@ -26,7 +26,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 box-banner-interna">
-          <h1>Fale Conosco</h1>
+          <h1 data-aos="fade-up">Fale Conosco</h1>
         </div>
       </div>
     </div>
@@ -35,7 +35,7 @@
   <section class="fale-conosco-orcamento">
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-sm-5 col-md-5 bg-mensagem-box">
+        <div class="col-xs-12 col-sm-5 col-md-5 bg-mensagem-box" data-aos="fade-right">
           <h2>RW Cell</h2>
           <p>
             Av. Prof. Alfonso Bovero, 1169 - Pompeia<br>
@@ -44,7 +44,7 @@
           </p>
           <button>Whatsapp</button>
         </div>
-        <div class="col-xs-12 col-sm-7 col-md-7 bg-mensagem">
+        <div class="col-xs-12 col-sm-7 col-md-7 bg-mensagem" data-aos="fade-left">
           <h3>Envie sua mensagem</h3>
 
           <form>

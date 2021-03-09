@@ -72,5 +72,9 @@ $(document).on('ready', function () {
       $('.mapa').removeClass('ativo');
     });
 
+ 
+    AOS.init();
+ 
+
 });
 

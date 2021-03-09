@@ -25,7 +25,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 box-banner-interna">
-          <h1>Serviços</h1>
+          <h1 data-aos="fade-up">Serviços</h1>
         </div>
       </div>
     </div>
@@ -35,19 +35,19 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h3>Independente do problema,<br>nós temos a solução</h3>
-          <p>Trabalhamos com a assistência técnica de toda linha de Celulares, iPhone e assessoria para uso e
+          <h3 data-aos="fade-up">Independente do problema,<br>nós temos a solução</h3>
+          <p data-aos="fade-up">Trabalhamos com a assistência técnica de toda linha de Celulares, iPhone e assessoria para uso e
             configuração do celular. Iniciamos nossas atividades em 2006, e estamos em constante processo de
             aperfeiçoamento.
             Contamos com equipamentos, aparelhamento, ferramentas especializadas e técnicos com experiência, aptos a
             oferecer a melhor qualidade de serviços sempre. O orçamento é feito em até 1 dia útil. Somente após sua
             autorização o equipamento será consertado.
           </p>
-          <p>O prazo pro conserto ficará vinculado a disponibilidade de peças no mercado.
+          <p data-aos="fade-up">O prazo pro conserto ficará vinculado a disponibilidade de peças no mercado.
           </p>
-          <p>No momento da aprovação do serviço informaremos também o prazo pra execução do mesmo.
+          <p data-aos="fade-up">No momento da aprovação do serviço informaremos também o prazo pra execução do mesmo.
           </p>
-          <p><b>
+          <p data-aos="fade-up"><b>
               Atendemos o Brasil inteiro, você poderá enviar seu produto via Sedex, caso esteja fora da capital.
               É rápido prático e seguro. Despesas com Sedex são por conta do cliente</b></p>
 
@@ -62,23 +62,23 @@
       <div class="row">
         <div class="col-md-12 box-left">
           <ul>
-            <li>
+            <li data-aos="fade-right">
               <i></i>
               <h3>TROCA DE VIDRO E DISPLAY</h3>
               <h4>Só trocamos o display completo caso não seja possível trocar apenas o vidro!</h4>
             </li>
-            <li>
+            <li data-aos="fade-right">
               <i></i>
               <h3>TROCA DE CONECTORES E BOTÕES</h3>
               <h4>Seu botões ou conectores estão com problema? fique tranquilo recuperamos e trocamos.</h4>
             </li>
-            <li>
+            <li data-aos="fade-right">
               <i></i>
               <h3>ATUALIZAÇÃO DE SOFTWARE E REPARAÇÃO</h3>
               <h4>Atualizou e parou de funcionar ou pegou algum virus? colocamos ele para funcionar fique tranquilo!
               </h4>
             </li>
-            <li>
+            <li data-aos="fade-right">
               <i></i>
               <h3>ASSESSORIA PARA USO E CONFIGURAÇÃO DO CELULAR </h3>
               <h4>Se você adquiriu um novo aparelho e ainda não sabe usar, nós podemos te ajudar.</h4>
@@ -95,13 +95,13 @@
 
       <div class="row">
         <div class="col-md-12">
-          <h2>Veja os nossos principais serviços</h2>
+          <h2 data-aos="fade-up">Veja os nossos principais serviços</h2>
           <h3></h3>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-xs-12 col-sm-4 col-md-4 box-left">
+        <div class="col-xs-12 col-sm-4 col-md-4 box-left" data-aos="fade-right">
           <div class="box-nossos-servicos ">
             <i class="icon-quebrou"></i>
             <h4>Caiu e quebrou?</h4>
@@ -118,7 +118,7 @@
           </div>
         </div>
 
-        <div class="col-xs-12 col-sm-4 col-md-4 box-center">
+        <div class="col-xs-12 col-sm-4 col-md-4 box-center" data-aos="fade-up">
           <div class="box-nossos-servicos principal">
             <i class="icon-molhou"></i>
             <h4>Molhou ou não liga?</h4>
@@ -135,7 +135,7 @@
           </div>
         </div>
 
-        <div class="col-xs-12 col-sm-4 col-md-4 box-right">
+        <div class="col-xs-12 col-sm-4 col-md-4 box-right" data-aos="fade-left">
           <div class="box-nossos-servicos">
             <i class="icon-servicos"></i>
             <h4>Demais serviços</h4>

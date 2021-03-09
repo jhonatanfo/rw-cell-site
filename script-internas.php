@@ -8,5 +8,7 @@
   <!--/Slick script-->
 
   <script src="content/dist/js/lightgallery-all.min.js"></script>
-
+  
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
   <script src="content/js/padrao.js" type="text/javascript" charset="utf-8"></script>

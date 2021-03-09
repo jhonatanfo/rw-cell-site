@@ -1040,6 +1040,7 @@ select {
     animation: fadeIn 5s;
     transition: 2s;
     cursor: pointer;
+    z-index: 2;
 }
 
 .icon-whatsapp .box{

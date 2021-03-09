@@ -117,25 +117,22 @@
   .banner-interna.lojas-internas {
     height: 563px;
   }
-  .fale-conosco-topo{
-    height:380px !important
+  .fale-conosco-topo {
+    height: 380px !important
   }
-
 }
 
 @media(min-width: 992px) and (max-width: 1199px) {
-  .bg-mensagem{
+  .bg-mensagem {
     padding-left: 40px;
     padding-right: 40px;
   }
-
-  .fale-conosco-topo{
-    height:380px !important
+  .fale-conosco-topo {
+    height: 380px !important
   }
   .chamada-lojas-internas {
     margin-top: -275px;
   }
-
   .banner-interna.lojas-internas {
     height: 563px;
   }
@@ -309,8 +306,11 @@
 }
 
 @media(min-width: 768px) and (max-width: 991px) {
-  .fale-conosco-topo{
-    height:263px !important
+  .icon-whatsapp {
+    right: 100px;
+  }
+  .fale-conosco-topo {
+    height: 263px !important
   }
   .bg-mensagem {
     padding-left: 40px;
@@ -319,7 +319,7 @@
   .banner-interna.lojas-internas {
     height: 370px;
   }
-  .banner-interna.lojas-internas .box-banner-interna h1{
+  .banner-interna.lojas-internas .box-banner-interna h1 {
     font-size: 29px;
     margin-top: 33px;
   }
@@ -335,12 +335,11 @@
   .chamada-lojas-internas .right h4 {
     font-size: 14px;
   }
- 
   .chamada-lojas-internas .right button {
-      font-size: 15px;
-      line-height: 23px;
-      width: 205px;
-      height: 50px;
+    font-size: 15px;
+    line-height: 23px;
+    width: 205px;
+    height: 50px;
   }
   /****/
   .box-lojas:hover {
@@ -545,11 +544,7 @@
     padding: 35px 0 0 0;
   }
   /**/
-   
- 
-
   /***/
-
   /**/
   .banner-interna.lojas .box-banner-interna h1 {
     font-size: 30px;
@@ -588,23 +583,50 @@
 @media(min-width: 0px) and (max-width: 540px) {}
 
 @media(min-width: 0px) and (max-width: 767px) {
-  .fale-conosco-orcamento {
-    height: inherit ;
+  .icon-whatsapp .box a {
+    width: 129px;
+    height: 38px;
+    font-size: 11px;
+    padding: 11px 0;
+}
+
+
+  .icon-whatsapp .box h3 span {
+    font-size: 15px;
   }
-  .fale-conosco-orcamento h3{
+  .icon-whatsapp .box h3 {
+    font-size: 14px;
+    margin: 58px 0 17px 0;
+  }
+  .icon-whatsapp .box {
+    background-size: 100%;
+    width: 202px;
+    height: 164px;
+    margin: 45px 0 0 -79px;
+  }
+  .icon-whatsapp {
+    width: 58px;
+    height: 58px;
+    right: 62px;
+    background-size: 100%;
+  }
+  .fale-conosco-orcamento {
+    height: inherit;
+  }
+  .fale-conosco-orcamento h3 {
     text-align: center;
   }
   .bg-mensagem {
     margin-top: 16px;
   }
-  .fale-conosco-orcamento h2{
+  .fale-conosco-orcamento h2 {
     text-align: center;
   }
-  .fale-conosco-orcamento p{
+  .fale-conosco-orcamento p {
     text-align: center;
     font-size: 17px;
   }
-  .fale-conosco-orcamento button{
+  .fale-conosco-orcamento button {
     margin: 0 auto;
     display: block;
     width: 185px;
@@ -613,22 +635,19 @@
   .bg-mensagem-box {
     padding: 32px 0;
   }
-  .fale-conosco-topo{
-    height:263px !important
+  .fale-conosco-topo {
+    height: 263px !important
   }
   .bg-loja-galeria ul li:hover:after {
     background-size: 40px;
   }
-  
-
   .chamada-lojas-internas .right {
     padding: 0;
   }
-
   .banner-interna.lojas-internas {
     height: 370px;
   }
-  .banner-interna.lojas-internas .box-banner-interna h1{
+  .banner-interna.lojas-internas .box-banner-interna h1 {
     font-size: 29px;
     margin-top: 33px;
   }
@@ -646,21 +665,19 @@
     font-size: 14px;
     text-align: center;
   }
-
   .chamada-lojas-internas {
     background: #303641;
     margin-top: -130px;
     height: inherit;
     padding: 0 0 50px 0;
   }
- 
   .chamada-lojas-internas .right button {
-      font-size: 15px;
-      line-height: 23px;
-      width: 205px;
-      height: 50px;
-      margin: 0 auto;
-      display: block;
+    font-size: 15px;
+    line-height: 23px;
+    width: 205px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
   }
   /****/
   .banner .box-banner h1 {
@@ -917,21 +934,20 @@
   .informacoes-servicos-interna-02 .box-left {
     padding: 35px 30px 0px 30px
   }
-  .informacoes-servicos-interna-02 ul li:hover i,
-  .informacoes-servicos-interna-02 ul li i {
+  .informacoes-servicos-interna-02 ul li:hover i, .informacoes-servicos-interna-02 ul li i {
     width: 100%;
     float: inherit;
     margin: 0 auto;
     display: block;
   }
-  .informacoes-servicos-interna-02 ul{
+  .informacoes-servicos-interna-02 ul {
     padding: 0;
   }
   .informacoes-servicos-interna-02 h3 {
     font-size: 18px;
     text-align: center;
   }
-  .informacoes-servicos-interna-02 h4{
+  .informacoes-servicos-interna-02 h4 {
     font-size: 18px;
     text-align: center;
     font-weight: 400;
@@ -949,9 +965,7 @@
   .box-banner-interna {
     padding: 90px 0 0 0;
   }
-
   /***/
-
   /**/
   .banner-interna.lojas .box-banner-interna h1 {
     font-size: 30px;
@@ -983,11 +997,10 @@
     line-height: 23px;
     padding: 17px 14px 0 0;
   }
-
   /****/
   /****/
   /****/
-  .banner-interna.lojas-internas .box-banner-interna h1{
+  .banner-interna.lojas-internas .box-banner-interna h1 {
     font-size: 29px;
     margin-top: 50px;
   }
@@ -1019,36 +1032,10 @@
     width: 210px;
     height: 77px;
   }
-
-  .banner-interna.lojas-internas .box-banner-interna h1{
+  .banner-interna.lojas-internas .box-banner-interna h1 {
     font-size: 29px;
-    
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**Menu**/
 

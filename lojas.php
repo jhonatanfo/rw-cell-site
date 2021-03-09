@@ -26,7 +26,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 box-banner-interna">
-                    <h1>Escolha uma de nossas<br>lojas para prosseguir</h1>
+                    <h1 data-aos="fade-up">Escolha uma de nossas<br>lojas para prosseguir</h1>
                 </div>
             </div>
         </div>
@@ -37,7 +37,7 @@
 
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-4">
-                    <div class="box-lojas">
+                    <div class="box-lojas" data-aos="fade-right">
                         <i></i>
                         <h2>Loja 01</h2>
                         <p>Av. Prof Alfonso Bovero 1169</p>
@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4">
-                    <div class="box-lojas">
+                    <div class="box-lojas" data-aos="fade-up">
                         <i></i>
                         <h2>Loja 02</h2>
                         <p>Av. Prof Alfonso Bovero 1231</p>
@@ -53,7 +53,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4">
-                    <div class="box-lojas">
+                    <div class="box-lojas" data-aos="fade-left">
                         <i></i>
                         <h2>Loja 03</h2>
                         <p>Av. Prof Alfonso Bovero 475</p>
